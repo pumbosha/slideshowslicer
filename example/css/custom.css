@@ -1,0 +1,25 @@
+/* set position of main content */
+#mainContent {
+	width:500px;
+	position: absolute;
+	left:50%;
+	margin-left:-250px;
+	top:50px;
+}
+
+/* styles responsible for slide's description */
+.desc {
+	text-align: center;
+	font-family: verdana;
+	font-size:25px;
+}
+
+/* hide arrows */
+#larrow, #rarrow {
+	display:none;
+}
+
+/* hide main slider elem. It will show when slicer adjust images sizes */
+#yourSliderName {
+	display:none;
+}

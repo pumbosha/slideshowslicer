@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl_PL">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+		<title>Slicer example page</title>
+	 
+		<!-- slicer styles -->
+		<link rel="stylesheet" href="css/slicer.css">
+		<!-- custom styles -->
+		<link rel="stylesheet" href="css/custom.css">
+	</head>
+  
+	<body>
+		<div id="mainContent">
+			<!-- Slider content -->
+			<div id="yourSliderName">
+				<div>
+					<img src="images/p1.jpg">
+					<div class="desc">
+						Example description of slide 1
+					</div>
+				</div>
+				<div>
+					<img src="images/p2.jpg">
+					<div class="desc">
+						Example description of slide 2
+					</div>
+				</div>
+				<div>
+					<img src="images/p3.jpg">
+					<div class="desc">
+						Example description of slide 3
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- images for arrows -->
+		<div id="larrow"><img src="images/left.png" /></div>
+		<div id="rarrow"><img src="images/right.png" /></div>
+		
+		<!-- Example workaround of disabled js -->
+		<noscript>
+			<style type="text/css">
+				.desc {position: relative;}
+				#yourSliderName img {width:500px; height:250px;}
+				#yourSliderName > div {margin-bottom:30px; border-bottom: 1px solid #999;}
+			</style>
+		</noscript>
+			
+		<!-- jQuery -->
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.js"></script>
+		<!-- velocity -->
+		<script type="text/javascript" src="https://rawgit.com/julianshapiro/velocity/master/velocity.js"></script>
+		<script type="text/javascript" src="https://rawgit.com/julianshapiro/velocity/master/velocity.ui.js"></script>
+		<!-- slicer -->
+		<script type="text/javascript" src="js/slicer.js"></script>
+		<!-- custom script -->
+		<script type="text/javascript" src="js/custom.js"></script>
+		
+	</body>
+</html>

@@ -1,0 +1,267 @@
+/* fonts */
+
+@font-face {
+    font-family: LogoFont;
+    src: url(../fonts/EightOne.ttf);
+}
+
+@font-face {
+    font-family: MainFont;
+    src: url(../fonts/LatoMedium.ttf);
+}
+
+/* main styles */
+
+body {
+	font-family: MainFont;
+	font-size:17px;
+	color:#777;
+	overflow-x: hidden;
+}
+
+#mainContent {
+	margin-top:65px;
+}
+
+.sectionTitle {
+	font-weight: bold;
+	border-bottom: black 1px solid;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+
+#preloader {
+	width:256px;
+	height:200px;
+	position:fixed;
+	left:50%;
+	top:40%;
+	margin-left:-128px;
+	margin-top:-50px;
+	text-align:center;
+	z-index: -10;
+}
+
+body .syntaxhighlighter .line {
+	white-space: pre-wrap !important; /* make code wrap */
+}
+
+.info {
+	color: #999;
+}
+
+.warn {
+	color:red;
+}
+
+.toolbar {
+	opacity:0;
+}
+
+.sectionSubTitle {
+	font-size: 25px !important;
+}
+.sectionTitle {
+	font-size: 40px;
+}
+
+#tutorial, #docs {
+	font-size: 16px;
+}
+
+ul {
+	list-style-type: square;
+}
+
+/* slider's styles */
+#navigation img {
+	margin:30px;
+}
+
+#navigation {
+	margin-top:-33px;
+}
+
+/* main navbar */
+
+nav, #mainContent {
+	opacity:0;
+}
+
+#larrow, #rarrow {
+	display:none;
+}
+
+#logo {
+	font-family: LogoFont;
+	padding: 20px 0px !important;
+	font-weight: bold;
+	color:#555;
+	margin-left: 0px !important;
+	font-size: 50px;
+}
+
+
+nav#mainHeader {
+	background-color:white;
+	border-color:white;
+}
+
+#navbar li a:hover, #navbar li a:focus {
+	background-color:yellow!important;
+	color:#000;
+}
+
+/* main slider's descriptions */
+
+#slide1_text {
+	top:32%;
+}
+
+#slide1_text a {
+	color:#fff;
+}
+
+#slide2_text {
+	top:32%;
+}
+
+#slide3_text {
+	top:32%;
+}
+
+.desc div{
+	position: relative;
+	font-weight:bold;
+	color: #ddd;
+	text-align:center;
+}
+
+.desc ul {
+	list-style-type: square;
+}
+
+/* tabs */
+
+.navbar-toggle {
+	margin-right:0px;
+}
+
+#navbar li a {
+	color:#555;
+	font-size:16px;
+}
+
+/*generator form controls*/
+
+#examplesGen p a {
+	margin-left:10px;
+}
+
+.generatorForm {
+	margin:10px;
+	overflow-x: hidden;
+}
+
+.generatorForm label {
+	font-weight:initial;
+}
+
+#formBottom {
+    width: 100%;
+    background-color:white;
+}
+
+#formBottom button {
+	width: 48%;
+}
+
+#sliderShowSettings .tab-content {
+	overflow-y:auto;
+}
+
+#sliderShowSettings ul li{
+	z-index:10;
+}
+
+#sliceAnimationDelayDiv, #descOpts, .showable, #slideCheckerOpts {
+	display:none;
+}
+
+/* code for download */
+#code .modal-dialog {
+	width:80%!important;
+	height:90%!important;
+	overflow:hidden;
+}
+
+#code .modal-content {
+	height:100%;
+}
+
+#code .modal-body {
+	height:75%;
+	overflow-y:scroll;
+}
+
+.codeExportTitle {
+	text-align:center;
+}
+
+/* docs styles */
+#docs dd {
+	margin: 10px;
+}
+
+#docs .tab-pane {
+	margin-top:15px;
+}
+
+#docs .warn {
+	color:red;
+}
+
+#docs .colTitle {
+	font-weight:bold;
+	border-right-width:3px;
+}
+
+/* contact */
+#contactSubmitButton {
+	display:none;
+}
+
+#contact .fade {
+	display:none;
+}
+
+#contact .in {
+	display:block!important;
+}
+
+#contact {
+	margin-bottom:30px!important;
+}
+
+/* tutorial */
+
+.exportCode {
+	cursor:pointer;
+}
+
+/* feature list */
+#features dd {
+	margin:20px;
+}
+
+#features ul {
+	list-style:none;
+}
+
+#features dt, #features dd {
+	opacity: 0;
+	margin-top: 10px;
+}
+
+
+

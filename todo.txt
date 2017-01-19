@@ -1,0 +1,133 @@
+--------------------------- Slicer ---------------------------
+
+OPIS SLICERA NA ENVATO:
+
+Jeśli szukasz rozwiązania, ktore zaimplementujesz na momencie to trafiłeś idealnie!
+Zanim kupisz przekonaj się do czego jest zdolny używając generatora na stronie slideshowslcer.com!
+- Slicer to prosty, lekki, customizowalny tool do generowania sliderow na strony internetowe
+- Slicer uses simple algorythms to manage attributes of the slices that each slider consists of.
+- Slidery tworzone przy jego pomocy mogą przyjmować zdefiniowane przez użytkownika rozmiary, przez co mogą być używane na responsywnych stronach internetowych
+- Slicer jest dziecinnie prosty do instalacji na dowlnej stronie napisanej w htmlu. Załączony z paczką przykład jest krotki i przejżysty dzięki czemu bez trudu podepniesz slicer pod swoją stronę, jedynie kopiując fragmenty kodu
+- Kompletny tutorial i dokumentacja znajdują się na slideshowslider.com
+- Slicer jest narzędziem w ktorym istnieje praktycznie nieograniczona liczba animacji jakie można wygenerować. Tworzenie animacji jest trywialne dzięki generatorowi (slideshowslider.com/#generator) za pomocą ktorego można manipulowac parametrami slicera a następnie obejrzeć efekty i wyeksportować kod -> znajomość js jest niepotrzebna. Przykłady można obejrzeć w zakładce 'examples'
+- Slicer bazuje na velocity js dzięki czemu animacje są płynne a co za tym idzie - przyjemne dla oka
+- Dzięki slicerowi na swoim sliderze możesz umieścić rownież wiadomości (opisy slajdow). Je rownież możesz customizować wpływając na ich wygląd i sposob pojawiania się.
+
+FEATURES NA STRONKE:
+
+Slicer IS:
+- easy to use: All what you need to use Slicer is attach appropriate js and css files, and write or copy a piece of html and js code. You don't have to have knowledge of programing. Try to set your custom parameters in generator[link] and generate code. It takes 5-15 minutes to prepare full slider to any web page.
+[time icon]
+
+- beatifull: Slicer is based on velocity engine which guarantee smoother animations than clear jQuery animations and that's why Slicer's transitions are beatifull and pleasing for eyes.
+[eye-open]
+
+- very customizable: Slicer is not only the set of ready-for-use defined sliders - it is tool which can generete a wide variety of sliders. You can customize transitions in many ways by setting appropriate parameters. With Slicer you can decide how your animation will look like without any constraints.
+[pencil]
+
+- funkcjonalny: Beside possibility of customizing transitions between slides you can also add description to each slide. Moreover you can adjust way of its appearing as well as position and appearance parameters. 
+[wrench]
+
+- responsywny (link do responsinatora): You can define size of your slider and that's why you can adjust it to any screen resolution by setting other size depending on device on which page is viewed.
+[phone]
+
+- light weight: Main file of Slicer (slider.js) weights only ~30KB which means that it will not slow down your page
+[scale]
+
+
+
+NA ENVATO DODAĆ:
+
+What is Slicer?
+Slicer is simple, easy to use and customizable tool for creating sliders for web page. It uses simple algorythms to manage attributes of the slices that each slider consists of. 
+
+Why Slicer?
+If you are looking for solution which you can adjust to your page in few minutes you found ideal place. Before you buy Slicer you can see it in action by using generator placed in Slicer Home Page where you can try to set appropriate parameters, see predefined examples and, most importantly, generate code.
+
+How is slicer?
+features list
+
+-----------------------------------------------------------------
+
++ zrobić kompletny opis slidera używając tego co powyżej
++ przygotować paczke do pobrania
++ przygotować opis paczki do pobrania
++ zrobić preview image: 590x300 JPG i thumbnail: 80x80 JPG
++ przekminić responsywność (że obrazek nie zmienia się wraz ze zmniejszającym się oknem)
++ komentarze do metod
++ brak inline cssow
++ wyświetlany tekst gdy js niedostępny
++ IE8: czy to konieczne? [błędy sprawdzić na js console]
+
+Niedorobki:
++ preloader ładniejszy
+- efekty do głownego slidera => zrobienie efektu WOW [textiliate.js!]
++ dodać jednak features do strony(?)
++ dodać opis sekcji try ktory zapowie że nie musisz wcale kupować kota w worku tylko najpierw wygenerować se cos i dopiero
+- generator w widoku na komorki
+
+- ENVATO do przeczytania:
+	- spis artykułow dla sprzedawcy: https://help.market.envato.com/hc/en-us/categories/200216014
+	- powody rejectow na cc: https://help.market.envato.com/hc/en-us/articles/202821010-Common-Rejection-Factors-CodeCanyon-
+	- guide do uploadu: https://help.market.envato.com/hc/en-us/articles/203269650-A-step-by-step-guide-to-the-upload-process
+	- dyskusja o itemach na forum: http://codecanyon.net/forums/topic/item-discussion/66
+
++ dodać słowa kluczowe do stronki slicera
++ Bug: generowanie kodu -> brak cudzyslowiow!!!
+	
++ wygląd z Piotrkiem
++ przy wyborze predefiniowanych animacji niektore pola generatora są niewidoczne
++ link do responsinatora
++ kapcza do kontaktu
+
+RESPONSIVE:
++ nie widać labelów w menu
++ nie widać loga
++ zrobić rozmiar obrazków
++ dopasowanie wielkości fontów
+
++ przeczytać opis parametrówi poporawiać
++ linkować do parametrów
++ zakładka kontakt
++ zrobić menu purchase które będzie prowadziło do envato
++ pozamieniać <br/> na <p></p>
++ zmniejszyć czcionki dla ekranow <600px
++ zawijanie wierszy we fragmentach kodu
+
++ Coś nie gra z generate()
++ Znowu zjebał się czas animacji dla ordered..
++ zbadać dlaczego ruch obrazka (image movable) odpala się z opoznieniem
++ dodać do generatora jakieś fajne predefiniowane animacje
++ scrollowanie menu
++ usunąć paski przewijania w momencie gdy widoczny jest preloader
++ tool do zmiany parametrów slidera
++ zrobić preloader
++ sprawdzić na innych kompach (Piotrek, Asia)
++ Zrobić wersje z css3 i bez css3
++ dopracować scale
++ animacja wysokości: z góry na dół, z dołu na górę
++ Możliwość zatrzymania animacji (funkcja stopOnMouseOver)
++ czas animacji przy ordered
++ slideChecker na najechanie myszką
++ liczba slice'ów dla każdej animacji
++ strzałka w dół się pokazuje przy przejściu na trzeci slajd
++ Chowanie się strzałek podczas animacji lub możliwość przejścia podczas animacji
+
+Refaktoring
++ opisy: position absolute
++ obrazki: position absolute
++ Zrobić żeby slajsy nie układały się jeden pod drugim tylko obok siebie
++ zaokrąglać wartości
++ zrobić switche zamiast ifów
+- komentarze do metod
++ Zrobić wartości defaultowe
++ uporządkować main.css
++ funkcję głowną slide() umieścić w konstruktorze
++ usuwanie styli z headera przy wywoływaniu funkcji generate()
++ this.stop
+
+-------------------------------- opis parametrow -------------------------------------------
+1. General params
+2. Animation params
+3. Description params
+4. Navigation params

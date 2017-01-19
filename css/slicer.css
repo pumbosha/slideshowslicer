@@ -1,0 +1,68 @@
+/**
+ * Slider specific styles
+ */
+
+.slide {
+	position:absolute;	
+	overflow:hidden;
+	top:0px;
+}
+
+.slice {
+	overflow:hidden;
+	position:absolute;
+	display:none;
+	z-index:100;
+	top:0px;
+}
+
+.slice img {
+	position:absolute;
+}
+
+.desc {
+	z-index: 100;
+	position:absolute;
+	overflow:hidden;
+}
+
+.desc {
+	color:black;
+}
+
+#navigation {
+	z-index:300;
+	position:absolute;
+	top:50%;
+	text-align:center;
+}
+
+#nextSlide, #prevSlide, .slideChecker {
+	cursor:pointer;
+	z-index:300;
+}
+
+#nextSlide, #prevSlide {
+	position:relative;
+	display:none;
+}
+
+#nextSlide {
+	float:right;
+}
+
+#prevSlide {
+	float:left;
+}
+
+.slideChecker div {
+	float:left;
+}
+
+.slideChecker {
+	display:none;
+}
+
+#pointer {
+	position:absolute;
+}

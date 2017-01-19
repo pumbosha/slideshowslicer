@@ -1,0 +1,1232 @@
+﻿<!DOCTYPE html>
+<html lang="pl_PL">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+		<meta name="keywords" content="slicer, slider, slideshow, html, js, javascript, jquery, velocity">
+		<meta name="description" content="Slicer is a tool for creating beatifull sliders to your page">
+
+		<title>Slicer demo page</title>
+	 
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/jquery-ui.css">
+		<link rel="stylesheet" href="css/slicer.css">
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="css/jquery.minicolors.css">
+		<link type="text/css" rel="stylesheet" href="css/shCoreDefault.css"/>
+		<link type="text/css" rel="stylesheet" href="css/shThemeRDark.css"/>	
+		<link type="text/css" rel="stylesheet" href="css/animate.css"/>	
+
+		<!-- syntah highlightrt -->
+		<script src="js/sh/shCore.js"></script>
+		<script src="js/sh/shBrushJScript.js"></script>
+		<script src="js/sh/shBrushXml.js"></script>
+		<script type="text/javascript">SyntaxHighlighter.all();</script>
+	</head>
+  
+	<body>
+
+	<div id="preloader">
+		<img src="img/preloader.gif" />
+	</div>
+
+	<nav id="mainHeader" class="navbar navbar-default navbar-fixed-top">
+	   <div class="container">	
+          	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            	<span class="sr-only">Toggle navigation</span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+          	</button>
+          	<a class="navbar-brand" id="logo">Slicer</a>
+	        <div id="navbar" aria-expanded="false" class="navbar-collapse collapse"> 
+		        <ul class="nav navbar-nav navbar-right" id="mainMenu">
+					<li><a href="html">top</a></li>
+					<li><a href="#features div.sectionTitle">features</a></li>
+					<li><a href="#generatorTitle">try</a></li>
+					<li><a href="#tutorial div.sectionTitle">tutorial</a></li>
+					<li><a href="#docs div.sectionTitle">docs</a></li>
+					<li><a data-toggle="tooltip" title="Purchase on Envato Market" href="#">purchase</a></li>
+					<li><a href="#contact div.sectionTitle">contact</a></li>
+				</ul>
+	      	</div>
+	   	</div>
+	</nav>
+
+
+	
+	<div class="container" id="mainContent">
+		<div class="row" id="mainSlider">
+			<div class="col-lg-12">
+			
+				<div id="slider">
+					<div>
+						<img src="img/p1.jpg"></img>
+						<div class="desc top opacity">
+							<div class="descText" id="slide1_text">
+								Slicer is a very easy-to-use and functional tool based on <a target="_blank" href="http://julian.com/research/velocity/">Velocity</a> JS for creating <strong>beautiful</strong> sliders.
+							</div>
+						</div>
+					</div>
+					<div>
+						<img src="img/p2.jpg"></img>
+						<div class="desc top slip">
+							<div class="descText" id="slide2_text">
+								It uses simple algorythms to manage attributes of the slices that each slider consists of.
+							</div>
+						</div>
+
+					</div>
+					<div>
+						<img src="img/p3.jpg"></img>
+						<div class="desc top slip">
+							<div class="descText" id="slide3_text">
+								Expore Slicer and see how easy you can create your own Slider adapted to your needs.
+							</div>
+							
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div id="larrow"><img src="img/left.png" /></div>
+		<div id="rarrow"><img src="img/right.png" /></div>
+
+		<div class="row" id="features">
+			<div class="col-lg-12">
+				<div class="sectionTitle">Features
+					<div class="sectionSubTitle">Slicer is:</div>
+				</div>
+				<dl>
+					<dt><i class="glyphicon glyphicon-large glyphicon-time"></i> Easy to use</dt>
+					<dd>
+						
+						All what you need to use Slicer is attach appropriate js and css files, and write or copy a piece of html and js code. You don't have to have knowledge of programing. Try to set your custom parameters in <a class="goToSectionLink" href="#generatorTitle">generator</a> and generate code. It takes 5-15 minutes to prepare full slider to any web page.
+					</dd>
+					<dt><i class="glyphicon glyphicon-large glyphicon-eye-open"></i> Beatifull</dt>
+					<dd>
+						
+						Slicer is based on velocity engine which guarantee smoother animations than clear jQuery animations and that's why Slicer's transitions are beatifull and pleasing for eyes.
+					</dd>
+					<dt><i class="glyphicon glyphicon-large glyphicon-pencil"></i> Customizable</dt>
+					<dd>
+						
+						Slicer is not only the set of ready-for-use defined sliders - it is tool which can generete a wide variety of sliders. You can customize transitions in many ways by setting appropriate parameters. With Slicer you can decide how your animation will look like without any constraints.
+					</dd>
+					<dt><i class="glyphicon glyphicon-large glyphicon-wrench"></i> Functional</dt>
+					<dd>
+						
+						Beside possibility of customizing transitions between slides you can also add description to each slide. Moreover you can adjust way of its appearing as well as position and appearance parameters. 
+					</dd>
+					<dt><i class="glyphicon glyphicon-large glyphicon-phone"></i> Responsive</dt>
+					<dd>
+						You can define size of your slider and that's why you can adjust it to any screen resolution by setting other size depending on device on which page is viewed. Look at <a target="_blank" href="http://www.responsinator.com/?url=slideshowslicer.com">live example</a>.
+					</dd>
+					<dt><i class="glyphicon glyphicon-large glyphicon-leaf"></i> Light weight</dt>
+					<dd>
+						Main file of Slicer (slider.js) weights only ~30KB which means that it will not slow down your page.
+					</dd>
+					<dt><i class="glyphicon glyphicon-large glyphicon-check"></i> Browser compatible</dt>
+					<dd>
+						Slicer is tested in: IE8, Firefox 46.0.1, Chrome 50.0.2661.94, Safari 5.1.7, Opera 37.0
+					</dd>
+
+			</div>
+		</div>
+
+		<div id="generatorTitle" class="row">
+			<div class="col-lg-12">
+				<div class="sectionTitle">Generator
+					<div class="sectionSubTitle">Try it before you buy</div>
+				</div>
+			</div>
+		</div>
+		<div class="row" id="generator">
+			<div class="col-md-6 col-xs-12" id="sliderShow">
+			</div>
+			<div id="sliderShowSettings" class="col-md-6 col-xs-12"  style="margin-bottom:50px">
+				<ul class="nav nav-tabs nav-justified">
+					<li class="active"><a data-toggle="tab" href="#genOptsGen">General</a></li>
+					<li><a data-toggle="tab" href="#animsGen">Animations</a></li>
+				  	<li><a data-toggle="tab" href="#descGen">Descriptions</a></li>
+				  	<li><a data-toggle="tab" href="#navGen">Navigation</a></li>
+				  	<li><a data-toggle="tab" href="#examplesGen">Examples</a></li>
+				</ul>
+
+				<div class="tab-content">
+				  	<div id="genOptsGen" class="tab-pane fade in active">
+				  		<form role="form" class="generatorForm" aria-describedby="formDesc">
+  							<div class="form-group">
+				    			<label for="stopDuration" id="stopDurationLabel">Stop duration: 5000 ms.</label>
+				    			<div id="stopDuration"></div>
+				    		</div>
+				    		<div class="form-group">
+				    			<label for="animationDuration" id="animationDurationLabel">Animation duration: 2000 ms.</label>
+				    			<div id="animationDuration"></div>
+				    		</div>
+				    		<div class="form-group checkbox">
+				    			<label for="isImageMovable"><input type="checkbox" id="isImageMovable" /> Is image movable</label>
+				    		</div>
+					    </form>
+				  	</div>
+				  	<div id="animsGen" class="tab-pane fade">
+					    <div id="animsOptsGen" class="tab-pane fade in active">
+					  		<form role="form" class="generatorForm" aria-describedby="formDesc">
+	  							<div class="form-group">
+					    			<label for="nrOfSlices" id="nrOfSlicesLabel">Number of slices: 10</label>
+					    			<div id="nrOfSlices"></div>
+					    		</div>
+					    		<div class="row">
+						    		<div class="form-group col-md-6 col-xs-12">
+							    		<label>Animation type:</label>
+										<select class="form-control" id="animationType">
+											<option value="width" selected="selected">Width</option>
+											<option value="height">Height</option>
+											<option value="opacity">Opacity</option>
+										</select>
+									</div>
+									<div class="form-group col-md-6 col-xs-12">
+							    		<label>Animation order:</label>
+										<select class="form-control" id="animationOrder">
+											<option value="simultanously" selected="selected">Simultanously</option>
+											<option value="inOrderedSequence">Ordered sequence</option>
+											<option value="inRandomSequence">Random sequence</option>
+											<option value="mixedOrdered">Mixed ordered</option>
+											<option value="mixedRandom">Mixed random</option>
+										</select>
+									</div>
+								</div>
+								<div class="form-group" id="sliceAnimationDelayDiv">
+					    			<label for="sliceAnimationDelayPercent" id="sliceAnimationDelayPercentLabel">Slice animation delay percent: 5</label>
+					    			<div id="sliceAnimationDelayPercent"></div>
+					    		</div>
+								<div class="row">
+						    		<div class="form-group col-md-6 col-xs-12">
+							    		<label>Animation direction:</label>
+										<select class="form-control" id="animationDirection">
+											<option value="1"  selected="selected">Left to right</option>
+											<option value="-1">Right to left</option>
+											<option value="0">Mixed</option>
+										</select>
+									</div>
+									<div class="form-group col-md-6 col-xs-12">
+							    		<label>Slice Animation direction:</label>
+										<select class="form-control" id="sliceAnimationDirection">
+											<option value="1"  selected="selected">Left to right</option>
+											<option value="-1">Right to left</option>
+											<option value="0">Mixed</option>
+										</select>
+									</div>
+								</div>
+								<h4>CSS3 tranformation animations:</h4>
+								<div class="row">
+						    		<div class="col-md-4 col-xs-12" id="rotateTransformationColumn">
+						    			<div class="form-group checkbox">
+							    			<label for="rotateTransformation"><input type="checkbox" id="rotateTransformation" /> Rotate transformation</label>
+							    		</div>
+						    			<div class="form-group showable">
+						    				<label>Axis:</label>
+											<select class="form-control" id="css3RotateAxis">
+												<option value="X" selected="selected">X</option>
+												<option value="Y">Y</option>
+												<option value="Z">Z</option>
+											</select>
+						    			</div>
+						    			<div class="form-group showable">
+						    				<div class="form-group">
+								    			<label for="css3RotateValue" id="css3RotateValueLabel">Value of transformation: 90 degrees</label>
+								    			<div id="css3RotateValue"></div>
+								    		</div>
+						    			</div>
+						    		</div>
+						    		<div class="col-md-4 col-xs-12" id="scaleTransformationColumn">
+						    			<div class="form-group checkbox">
+							    			<label for="scaleTransformation"><input type="checkbox" id="scaleTransformation" /> Scale transformation</label>
+							    		</div>
+						    			<div class="form-group showable">
+						    				<label>Axis:</label>
+											<select class="form-control" id="css3ScaleAxis">
+												<option value="X" selected="selected">X</option>
+												<option value="Y">Y</option>
+												<option value="Z">Z</option>
+											</select>
+						    			</div>
+						    			<div class="form-group showable">
+						    				<div class="form-group">
+								    			<label for="css3ScaleValue" id="css3ScaleValueLabel">Value of transformation: x1.5</label>
+								    			<div id="css3ScaleValue"></div>
+								    		</div>
+						    			</div>
+						    		</div>
+						    		<div class="col-md-4 col-xs-12" id="skewTransformationColumn">
+						    			<div class="form-group checkbox">
+							    			<label for="skewTransformation"><input type="checkbox" id="skewTransformation" /> Skew transformation</label>
+							    		</div>
+						    			<div class="form-group showable">
+						    				<label>Axis:</label>
+											<select class="form-control" id="css3SkewAxis">
+												<option value="X" selected="selected">X</option>
+												<option value="Y">Y</option>
+												<option value="Z">Z</option>
+											</select>
+						    			</div>
+						    			<div class="form-group showable">
+						    				<div class="form-group">
+								    			<label for="css3SkewValue" id="css3SkewValueLabel">Value of transformation: 90 degrees</label>
+								    			<div id="css3SkewValue"></div>
+								    		</div>
+						    			</div>
+						    		</div>
+						    	</div>
+						    </form>
+					  	</div>
+				  	</div>
+				  	<div id="descGen" class="tab-pane fade">
+				    	<form role="form" class="generatorForm" aria-describedby="formDesc">
+	  						<div class="form-group checkbox">
+					    		<label for="isDescPresent"><input type="checkbox" id="isDescPresent" /> Is slide's description present</label>
+					    	</div>
+					    	<div id="descOpts">
+						    	<div class="row">
+							    	<div class="col-md-6 col-xs-12 form-group">
+							    		<label for="descAnimationDuration" id="descAnimationDurationLabel">Animation duration: 500 ms.</label>
+							    		<div id="descAnimationDuration"></div>
+							    	</div>
+							    	<div class="col-md-6 col-xs-12 form-group">
+					    				<label>Animation type:</label>
+										<select class="form-control" id="descAnimationType">
+											<option value="opacity" selected="selected">Opacity</option>
+											<option value="slip">Slip</option>
+										</select>
+					    			</div>
+					    		</div>
+					    		<div class="row">
+					    			<div class="col-md-6 col-xs-12 form-group">
+					    				<label>Description position:</label>
+										<select class="form-control" id="descPosition">
+											<option value="top" selected="selected">Top</option>
+											<option value="bottom">Bottom</option>
+											<option value="left">Left</option>
+											<option value="right">Right</option>
+										</select>
+					    			</div>
+							    	<div class="col-md-6 col-xs-12 form-group">
+							    		<label for="descSizePercent" id="descSizePercentLabel">Description size: 30 %</label>
+							    		<div id="descSizePercent"></div>
+							    	</div>
+					    		</div>
+					    		<div class="clearfix"></div>
+					    		<div class="row">
+					    			<div class="col-md-6 col-xs-12 form-group">
+							    		<label for="descBackgroundOpacity" id="descBackgroundOpacityLabel">Description background opacity: 50 %</label>
+							    		<div id="descBackgroundOpacity"></div>
+							    	</div>
+								    <div class="col-md-6 col-xs-12 form-group">
+							    		<label for="descBackgroundColor">Decription background color:</label>
+								    	<input size="7" id="descBackgroundColor" class="form-control demo minicolors-input" value="#ff0000" type="text">
+									</div>
+								</div>
+							</div>
+	  					</form>
+				  	</div>
+				  	<div id="navGen" class="tab-pane fade">
+				  		<form role="form" class="generatorForm" aria-describedby="formDesc">
+				  			<div class="row">
+								<div class="col-md-6 col-xs-12 form-group">
+									<div class="checkbox">
+							    		<label for="showProgressBar"><input type="checkbox" id="showProgressBar" /> Show progress bar</label>
+							    	</div>
+		  						</div>
+		  						<div class="col-md-6 col-xs-12 form-group">
+									<div class="checkbox">
+							    		<label for="stopOnMouseEnter"><input type="checkbox" id="stopOnMouseEnter" /> Stop progress on mouse enter</label>
+							    	</div>
+		  						</div>
+		  					</div>
+		  					<div class="row" id="progressBarColorDiv">
+		  						<div class="col-md-6 col-xs-12 form-group" >
+						    		<label for="progressBarColor">Progress bar color:</label>
+							    	<input size="7" id="progressBarColor" class="form-control demo minicolors-input" value="#ffd900" type="text">
+								</div>
+								<div class="col-md-6 col-xs-12 form-group" >
+									<label for="progressBarPosition">Progress bar position:</label>
+									<select class="form-control" id="progressBarPosition">
+										<option value="top"  selected="selected">Top</option>
+										<option value="bottom">Bottom</option>
+									</select>
+								</div>
+							</div>
+		  					<div class="clearfix"></div>
+		  					<div class="form-group row">
+		  						<div class="form-group col-md-6 col-xs-12">
+						    		<label>Arrows presence mode:</label>
+									<select class="form-control" id="arrowsPresenceMode">
+										<option value="1" selected="selected">Show</option>
+										<option value="-1">Hide</option>
+										<option value="0">Show on mouse over</option>
+									</select>
+								</div>
+								<div class="form-group col-md-6 col-xs-12">
+						    		<label>Slide checker presence mode:</label>
+									<select class="form-control" id="slideCheckerPresenceMode">
+										<option value="1"  selected="selected">Show</option>
+										<option value="-1">Hide</option>
+										<option value="0">Show on mouse over</option>
+									</select>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+							<div id="slideCheckerOpts">
+			  					<div class="form-group row">
+			  						<div class="form-group col-md-6 col-xs-12">
+			  							<label for="slideCheckerWidth" id="slideCheckerWidthLabel">Slide checker width in percent: 10 %</label>
+								    	<div id="slideCheckerWidth"></div>
+			  						</div>
+			  						<div class="form-group col-md-6 col-xs-12">
+			  							<label for="slideCheckerTop" id="slideCheckerTopLabel">Slide checker's distance from top of slider in percent of its height: 90 %</label>
+								    	<div id="slideCheckerTop"></div>
+			  						</div>
+			  					</div>
+			  					<div class="form-group row">
+			  						<div class="form-group col-md-6 col-xs-12">
+			  							<label for="slideCheckerBackgroundColor">Slide checker background color:</label>
+								    	<input size="7" id="slideCheckerBackgroundColor" class="form-control demo minicolors-input" value="#0000ff" type="text">
+			  						</div>
+			  						<div class="form-group col-md-6 col-xs-12">
+			  							<label for="slideCheckerPointerColor">Slide checker pointer color:</label>
+								    	<input size="7" id="slideCheckerPointerColor" class="form-control demo minicolors-input" value="#000000" type="text">
+			  						</div>
+			  					</div>
+			  				</div>
+	  					</form>
+				  	</div>
+				  	<div id="examplesGen" class="tab-pane fade">
+				  		<h4>Predefined animations</h4>
+				  		<h6>Click on belows link to change slider's generator options and generate animation</h6>
+				  		<p><a href="#lagazetta">La Gazetta</a></p>
+				  		<p><a href="#rain">Singi'n in the rain</a></p>
+				  		<p><a href="#gradient">Quasi gradient effect</a></p>
+				  		<p><a href="#height">Modern slider with height animated</a></p>
+				  		<p><a href="#width">Modern slider with width animated</a></p>
+				  		<p><a href="#crazy">Crazy slices</a></p>
+				  		<p><a href="#crt">Old CRT TV</a></p>
+				  		<p><a href="#screwy">Screwy Slices</a></p>
+				  		<p><a href="#appearing">Simple appearing</a></p>
+				  		<p><a href="#slipping">Simple slipping</a></p>
+					</div>
+				</div>
+				<div class="bottom-align" id="formBottom">	
+					<span id="formDesc" class="help-block">Find out above parameters in <a class="goToSectionLink" href="#docs div.sectionTitle">documentation</a> section.</span>
+					<button type="button" id="generate" class="btn btn-default btn-lg generateSlider">Generate</button>
+					<button type="button" class="exportCode btn btn-default btn-lg exportSettings" >Show code</button>
+				</div>
+			</div>
+		</div>
+		<div class="row" id="tutorial">
+			<div class="col-lg-12">
+				<div class="sectionTitle">Fast tutorial</div>
+				<p>
+					Using Slicer in page is incredibly simple. You have to add a piece of html code and create slider object with some relevant parameters in js code described below. (<a href="/example">quick and complete example</a>)
+				</p>
+				<p>
+					First of all let’s add appropriate scripts and styles. 
+				</p>
+				<p>
+					Styles to header:
+					<pre class="brush: xml; gutter: false;">
+						<link rel="stylesheet" href="css/slicer.css">
+					</pre>
+				</p>
+				<p>
+					Scripts to footer:
+					<pre class="brush: xml; gutter: false;">
+						<!-- jQuery -->
+						<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.js"></script>
+						<!-- velocity -->
+						<script type="text/javascript" src="https://rawgit.com/julianshapiro/velocity/master/velocity.js"></script>
+						<script type="text/javascript" src="https://rawgit.com/julianshapiro/velocity/master/velocity.ui.js"></script>
+						<!-- slicer script -->
+						<script src="js/slicer/slicer.js"></script>
+					</pre>
+					<span class="info">
+						<i class="glyphicon glyphicon-large glyphicon-info-sign"></i>
+						Remember that jQuery with version >= 2 doesn't work properly on IE8
+					</span>
+				</p>
+				<p>
+					Then let's add html code which is responsible for slider:
+				</p>
+				<p>
+					<pre class="brush: xml; gutter: false;">
+						<div id="yourSliderName">
+							<div>
+								<img src="path_to_image_1"></img>
+								<div class="desc">
+									Example description of slide 1
+								</div>
+							</div>
+							<div>
+								<img src="path_to_image_2"></img>
+								<div class="desc">
+									Example description of slide 2
+								</div>
+							</div>
+							<div>
+								<img src="path_to_image_3"></img>
+								<div class="desc">
+									Example description of slide 3
+								</div>
+							</div>
+						</div>
+	      			</pre>
+      			</p>
+      			<p>
+					Ok. We've just put 3 slides to our slider. Don't forget to customize paths to image files and descriptions (if you want to use descriptions - if not you can omit div with class ‘desc’). Size of images wich you put to slider should be at least as large as specified in parameters <a href="#slideSizeDefinitionGeneral" class="linkToParamDesc" >slideHeight and slideWidth</a> in js (described below).
+				</p>
+				<p>
+					If you want to have your custom arrows images to navigate between slides you should put to your html code also those lines:
+				</p>
+				<p>
+					<pre id="htmlExportCode" class="brush: xml; gutter: false;">
+						<div style="display:none">
+							<div id="leftArrow">
+								<img src="path_to_your_left_arrow_image" />
+							</div>
+							<div id="rightArrow">
+								<img src="path_to_your_right_arrow_image" />
+							</div>
+						</div>
+					</pre>
+				</p>
+				<p>
+					Don't forget to customize paths to images. Names <i>rightArrow</i> and <i>leftArrow</i> will be used below in js settings (navigation parameters: <a href="#custArrowDefinitionNav" class="linkToParamDesc" >custLeftArrowDivId, custRightArrowDivId</a>).
+				</p>
+				<p>
+					Ok, let's move on to js. It should be called when page is be loaded (e.g. ready() on Document jquery event). All you need to do is define 4 objects with parameters described in <a class="goToSectionLink" href="#docs div.sectionTitle">documentation</a> and put it to slider object.
+				</p>
+				<p>
+					Firstly let’s create <a href="#animationTypeDefinitionAnim" class="linkToParamDesc" >animation options</a>:
+				</p>
+				<p>
+					<pre class="brush: js; gutter: false;">
+						var animationOpts = {
+						    animationType: width,
+						    animationOrder: simultanously,
+						    animationDuration: 2000,
+						    sliceAnimationDelayPercent: 5,
+						    animationDirection: 1,
+						    sliceAnimationDirection: 1,
+						    nrOfSlices: 10
+						};
+					</pre>
+				</p>
+				<p>
+					You can define as much animation objects as you want. Assuming that you have created 3 animation objects: <i>animationOpts</i> (defined above), <i>animationOpts1</i>, <i>animationOpts2</i>. Our purpose is to have other transition between slides. In this case transition between first and second slide will use options defined in animationOpts variable. Transition between second and third slide will use options defined in animationOpts1 variable, and similarly for variable animationOpts2. Technically we should put all 3 objects to array:	
+					<pre class="brush: js; gutter: false;">
+						var animationOpts1 /* = {...} */;
+						var animationOpts2 /* = {...} */;
+						var animations = [animationOpts, animationOpts1, animationOpts2];
+					</pre>
+					and this array we put into main slider method described below.
+				</p>
+				<p>
+					Next let’s create slide’s <a href="#sizePercentDescDefinitionDesc" class="linkToParamDesc" >descriptions parameters</a>:
+					<pre class="brush: js; gutter: false;">
+						descOpts = {
+						    sizePercent: 30,
+						    position: top,
+						    animationDuration: 500,
+						    animationType: opacity,
+						    bgColor: #ff0000,
+						    bgOpacity: 0.5
+						}
+					</pre>
+					Those parameters will be used in every slide. If you don’t want to use slide’s descriptions you can leave this parameter empty:
+					<pre class="brush: js; gutter: false;">
+						var descOpts = {};
+					</pre>
+				</p>
+				<p>
+					However sometimes you want to define other parameters to particular slide. For example in first slide you have dark image, and in <a href="#sizePercentDescDefinitionDesc" class="linkToParamDesc" >descOpts</a> you defined background color as black. In this case description can be illegible, so we might want to change this parameter only in first slide. All you should do is adding appropriate class to &ltdesc&gt element in html code:
+					<pre class="brush: xml; gutter: false;">
+						<div class="desc bgcolor_yellow">
+            				Example description of slide 3
+        				</div>
+        			</pre>
+        			Now your slide description will be readable. You can customize all description parameter in this way:
+        			<ul>
+        				<li>
+        					adding class <i>top</i>, <i>left</i>, <i>bottom</i> or <i>right</i> will be identical as setting parameter <a href="#positionDescDefinitionDesc" class="linkToParamDesc" >position</a> in particular slide
+        				</li>
+        				<li>
+        					adding class <i>opacity</i> or <i>slip</i> will be identical as setting parameter <a href="#animationTypeDescDefinitionDesc" class="linkToParamDesc" >animationType</a> in particular slide
+        				</li>
+        				<li>
+        					adding class <i>bgOpacity_30</i> will be identical as setting parameter <a href="#bgOpacityDescDefinitionDesc" class="linkToParamDesc" >bgOpacity</a> to 0.3 in particular slide
+        				</li>
+        				<li>
+        					adding class <i>sizePercent_30</i> will be identical as setting parameter <a href="#sizePercentDescDefinitionDesc" class="linkToParamDesc" >sizePercent</a> to 30 in particular slide
+        				</li>
+        			</ul>
+        			Your description in html can looks like:
+        			<pre class="brush: xml; gutter: false;">
+        				<div class="desc bgcolor_yellow sizePercent_30 bgOpacity_30 left slip ">
+				            Example description of slide 3
+				        </div>
+        			</pre>
+        			In this case our properties for this particular slide’s description will be:
+        			<ul>
+        				<li>
+        					sizePercent: 30,
+        				</li>
+        				<li>
+        					position: left,
+        				</li>
+        				<li>
+        					animationType: slip,
+        				</li>
+        				<li>
+        					bgColor: yellow,
+        				</li>
+        				<li>
+							bgOpacity: 0.3
+						</li>
+					</ul>
+					which means that for this particular slide – its description will slip from outside of and will land on the left. It will occupy 30% of slider’s area. Its background will be yellow and it will be transparent 30%.
+				</p>
+				<p>
+					Remember that there is no constraints according to content of description. You can use any fonts, colors, images you want.
+				</p>
+				<p>
+					Last parameter object which we should define is <a href="#custArrowDefinitionNav" class="linkToParamDesc" >navigation</a>:
+					<pre class="brush: js; gutter: false;">
+						var navOpts = {
+						    custLeftArrowDivId: leftArrow,
+						    custRightArrowDivId: rightArrow,
+						    showSlideChecker: -1,
+						    showArrows: 1,
+						    slideCheckerPercentWidth: 10,
+						    slideCheckerTop: 90,
+						    progressBarPosition: top,
+						    progressBarColor: #ffd900,
+						    stopOnMouseEnter: true,
+						    slideCheckerBgColor: #0000ff,
+						    slideCheckerPointerColor: #000000,
+						    progressBarOpacity: 1
+						};
+					</pre>
+				</p>
+				<p>
+					If we defined all parameter objects we should just create slider object:
+					<pre class="brush: js; gutter: false;">
+						var sliderName = new Slider({
+						    sliderId: yourSliderName,
+						    nrOfSlides: number_of_slides_present_in_slider,
+						    slideHeight: slider_height,
+						    slideWidth: slider_width,
+						    stopDuration: 5000,
+						    isImageMovable: false,
+						}, [animationOpts], descOpts, navOpts);
+					</pre>
+					<a class="exportCode">Here</a> you can see all code generated from settings in <a href="#generatorTitle" class="goToSectionLink">generator(Try it)</a> section.
+				</p>
+				<p>
+					<span class="info">
+						<i class="glyphicon glyphicon-large glyphicon-info-sign"></i>
+						You can generate your code in <a class="goToSectionLink" href="#generatorTitle">generator</a> and copy to your page.
+					</span>
+				</p>
+				<p>
+					Slider provides also <strong>API</strong>. Methods which you can use are:
+					<ul>
+						<li>
+							sliderObj.nextSlide()
+						</li>
+						<li>
+							sliderObj.prevSlide()
+						</li>
+						<li>
+							sliderObj.goToSlide(nrOfSlide)
+						</li>
+						<li>
+							sliderObj.sliderStop()
+						</li>
+						<li>
+							sliderObj.sliderResume()
+						</li>
+					</ul>
+				</p>
+				<p>
+					Beside this there is event named 'nextSlide' which happens always when slide is changing. Example handling looks like:
+					<pre class="brush: js; gutter: false;">
+						/* desc is css class of current slide's description */
+						$(".desc").on("nextSlide", function(ev, slideId) {
+			                /* slideId is id of slide which is currently visible */
+			            });
+					</pre>
+					You can use this event for example when you want to animate description of slide or wheneve when you want to do some action exactly when slide is changed.
+				</p>
+			</div>
+		</div>
+		<div class="row" id="docs">
+			<div class="col-lg-12">
+				<div class="sectionTitle">Documentation
+					<div class="sectionSubTitle">Parameters descriptions</div>
+				</div>
+				<ul class="nav nav-tabs nav-justified">
+					<li id="generalOptsDocTab" class="active"><a data-toggle="tab" href="#genOptsDesc">General</a></li>
+					<li id="animOptsDocTab"><a data-toggle="tab" href="#animsDesc">Animations</a></li>
+				  	<li id="descOptsDocTab"><a data-toggle="tab" href="#descDesc">Descriptions</a></li>
+				  	<li id="navOptsDocTab"><a data-toggle="tab" href="#navDesc">Navigation</a></li>
+				</ul>
+
+				<div class="tab-content">
+				  	<div id="genOptsDesc" class="tab-pane fade in active">
+				  		<dl>
+	  						<dt id="sliderIdDefinitionGeneral"><strong>sliderId</strong> (mandatory)</dt>
+	  						<dd>Id of html element in which slider will be placed.</dd>
+	  						<dt id="nrOfSlidesDefinitionGeneral"><strong>nrOfSlides</strong> (mandatory)</dt>
+	  						<dd>Number of slides in slider. This number should be equal to number of images which will be placed in html element marked by <a href="#sliderIdDefinition" class="linkToParamDesc" >sliderId</a>. </dd>
+							<dt id="slideSizeDefinitionGeneral"><strong>slideHeight, slideWidth</strong> (mandatory)</dt>
+	  						<dd>Parameters which determine size of slider. All images which are placed in slider should be at least as large as those parameters. It can be vary in different resolutions. If you want to your slider always occupied 50% of width of screen you should set slideWidth as: screen.width * 0.5 and slideHeight according to proportion of your images.</dd>
+	  						<dt id="stopDurationDefinitionGeneral"><strong>stopDuration</strong> (mandatory)</dt>
+	  						<dd>Time in which each slide is visible. After this time transition to next slide will begin.</dd>
+	  						<dt id="isImageMovableDefinitionGeneral"><strong>isImageMovable</strong> (optional)</dt>
+	  						<dd>
+	  							Determines whether image will be animated during stop (<a href="#stopDurationDefinitionGeneral" class="linkToParamDesc" >stopDuration</a>) or not. If it equals true there are 3 possibilities:
+	  							<ol>
+									<li>
+										If particular image in slider is wider than size determined in parameters <a href="#slideSizeDefinitionGeneral" class="linkToParamDesc" >slideHeight and slideWidth</a>, then image will be animated (moving from left to right)
+									</li>
+									<li>
+										Similarily if some image in slider is higher than size determined in parameters <a href="#slideSizeDefinitionGeneral" class="linkToParamDesc" >slideHeight and slideWidth</a>, then image will be animated (moving from top left to bottom)
+									</li>
+									<li>
+										Else if ratio between parameters <a href="#slideSizeDefinitionGeneral" class="linkToParamDesc" >slideHeight and slideWidth</a> is the same as ratio between image’s height and width, then image will be animated (zoom effect).
+									</li>
+								</ol>
+								<string>Example:</string>
+								
+								<p>
+									Assume that parameter isImageMovable equals true, and our size parameters are:
+									<ul>
+										<li>
+											slideWidth:200 [px]
+										</li>
+										<li>
+											slideHeight: 100 [px]
+										</li>
+									</ul>
+								</p>
+								<p>
+									Ratio between those values is:
+									200/100=2.
+									We want to have 3 images in slider. Their sizes are following:
+									500x200, 300x300, 1000x500.
+									According to possibilities listed above:
+									<ol>
+										<li>
+											First image’s ratio is:
+									    	500/200 = 2.5.
+									    	It is more than 2 (image is too wide), so image will be animated (moving from left to right).
+									    </li>
+									    <li>
+											Second image’s ratio is:
+									    	300/300 = 1.
+									    	It is less than 2 (image is too high), so image will be animated (moving from top to bottom).
+									    </li>
+									    <li>
+											Last image’s ratio is:
+									    	1000/500 = 2.
+									    	It is equal with 2 (image ratio is ideal), so image will be animated (zoom effect).
+										</li>
+									</ol>
+								</p>
+								<p>
+									This example is similar with slider used in 'try it' section.
+								</p>
+								<p>
+									In other hand if parameter isImageMovable equals false, then first and second image will be cropped, because their sizes don’t fit to ratio between parameters <a href="#slideSizeDefinitionGeneral" class="linkToParamDesc" >slideWidth/slideHeight</a>.
+								</p>
+								<p>
+									<i class="warn glyphicon glyphicon-large glyphicon-exclamation-sign"></i> 
+									<span class="warn">Setting this parameter to true can cause downturn working of slider.</span>
+								</p>
+								<p>
+									By default it is set to false.
+								</p>
+	  						</dd>
+						</dl>
+				  	</div>
+				  	<div id="animsDesc" class="tab-pane fade in">
+				  		<dl>
+	  						<dt id="animationTypeDefinitionAnim">animationType (mandatory)</dt>
+	  						<dd>
+	  							Determies which slice’s attribute is animated. It can be:
+	  							<ul>
+	  								<li>
+										height
+									</li>
+									<li>
+										width
+									</li>
+									<li>
+										opacity
+									</li>
+								</ul>
+	  						</dd>
+
+	  						<dt id="animationOrderDefinitionAnim">animationOrder (mandatory)</dt>
+	  						<dd>
+	  							<p>
+		  							Parameter which determine order of animated slices in slider. It can be:
+		  							<ul>
+		  								<li>
+		  									simultanously: all slices are animated in the same time;
+			  							</li>
+			  							<li>
+											inOrderedSequence: each slice is animated after the end of previous slice’s animation; order of animation of each slice is determined in parameter: <a class="linkToParamDesc" href="#animationDirectionDefinitionAnim">animationDirection</a>;
+										</li>
+										<li>
+											inRandomSequence: each slice is animated after the end of previous slice’s animation;
+										</li>
+										<li>
+											mixedOrdered: each slice is animated after previous slice’s animation is in x percent completed, where ‘x’ is determined in <a class="linkToParamDesc" href="#sliceAnimationDelayPercentDefinitionAnim">sliceAnimationDelayPercent</a> parameter; order of animation of each slice is determined in parameter: <a class="linkToParamDesc" href="#animationDirectionDefinitionAnim">animationDirection</a>;
+										</li>
+										<li>
+											mixedRandom: each slice is animated after previous slice’s animation is in x percent completed, where ‘x’ is determined in <a class="linkToParamDesc" href="#sliceAnimationDelayPercentDefinitionAnim">sliceAnimationDelayPercent</a> parameter; order of animation of each slice is random;
+										</li>
+		  							</ul>
+		  						</p>
+	  							<p>
+		  							Behaviour of those parameters is described in below table:
+		  							<table class="table table-bordered">
+		    							<thead>
+								      		<tr>
+										        <th>feature\type</th>
+										        <th>simultanously</th>
+										        <th>inOrderedSequence</th>
+										        <th>inRandomSequenct</th>
+										        <th>mixedOrdered</th>
+										        <th>mixedRandom</th>
+										    </tr>
+										</thead>
+								    	<tbody>
+								      		<tr>
+								      			<td class="colTitle">order</td>
+								      			<td>all slices animated in the same time - no order</td>
+								      			<td>ordered according to <a class="linkToParamDesc" href="#animationDirectionDefinitionAnim">animationDirection</a> parameter</td>
+								      			<td>random</td>
+								      			<td>ordered according to <a class="linkToParamDesc" href="#animationDirectionDefinitionAnim">animationDirection</a> parameter</td>
+								      			<td>random</td>
+								      		</tr>
+								      		<tr>
+								      			<td class="colTitle">behaviour</td>
+								      			<td>all slices animated in the same time</td>
+								      			<td>each slice is animated after the end of previous slice’s animation</td>
+								      			<td>each slice is animated after the end of previous slice’s animation</td>
+								      			<td>each slice is animated after previous slice’s animation is in x percent completed, where ‘x’ is determined in <a class="linkToParamDesc" href="#sliceAnimationDelayPercentDefinitionAnim">sliceAnimationDelayPercent</a> parameter</td>
+								      			<td>each slice is animated after previous slice’s animation is in x percent completed, where ‘x’ is determined in <a class="linkToParamDesc" href="#sliceAnimationDelayPercentDefinitionAnim">sliceAnimationDelayPercent</a> parameter</td>
+								      		</tr>
+								      	</tbody>
+								  	</table>
+								</p>
+	  						</dd>
+	  						<dt id="animationDurationDefinitionAnim">animationDuration (mandatory)</dt>
+	  						<dd>
+								The duration of the transition between slides animation.
+							</dd>
+							<dt id="sliceAnimationDelayPercentDefinitionAnim">sliceAnimationDelayPercent (mandatory if animationOrder is set to mixedOrder or mixedRandom)</dt>
+	  						<dd>
+								Parameter which is used only if <a class="linkToParamDesc" href="#animationDirectionDefinitionAnim">animationDirection</a> is mixedOrder or mixedRandom. It determines part (in percent) of completion animation of one slice, after next slice’s animation can starts.
+							</dd>
+							<dt id="animationDirectionDefinitionAnim">animationDirection (optional)</dt>
+	  						<dd>
+	  							<p>
+									Parameter which determine direction of animation. It can be:
+									<ul>
+										<li>
+											from left to right (value: 1);
+										</li>
+										<li>
+											from right to left (value -1);
+										</li>
+										<li>
+											mixed: slices in one transition are animated from left to right, in next transition: from right to left; 
+										</li>
+									</ul>
+								</p>
+								<p>
+									By default it is set to 1.
+								</p>
+							</dd>
+							<dt id="sliceAnimationDirectionDefinitionAnim">sliceAnimationDirection (optional)</dt>
+	  						<dd>
+	  							<p>
+									Parameter which determine direction of slices animation. It is used only if <a class="linkToParamDesc" href="#animationTypeDefinitionAnim">animationType</a> is height or width. 
+									<ul>
+										<li>
+											when it is set to 1, and <a class="linkToParamDesc" href="#animationTypeDefinitionAnim">animationType</a> is width, then each slice is animated by growing of width: from left to right
+										</li>
+										<li>
+											when it is set to -1, and <a class="linkToParamDesc" href="#animationTypeDefinitionAnim">animationType</a> is width, then each slice is animated by growing of width: from right to left;
+										</li>
+										<li>
+											when it is set to 0, and <a class="linkToParamDesc" href="#animationTypeDefinitionAnim">animationType</a> is width, then slices are animated mixed: one is animated from left to right, next from right to left
+										</li>
+										<li>
+											when it is set to 1, and <a class="linkToParamDesc" href="#animationTypeDefinitionAnim">animationType</a> is heught, then each slice is animated by growing of width: from top to bottom
+										</li>
+										<li>
+											when it is set to -1, and <a class="linkToParamDesc" href="#animationTypeDefinitionAnim">animationType</a> is width, then each slice is animated by growing of width: from bottom to top;
+										</li>
+										<li>
+											when it is set to 0, and <a class="linkToParamDesc" href="#animationTypeDefinitionAnim">animationType</a> is width, then slices are animated mixed: one is animated from top to bottom, next from bottom to top
+										</li>
+									</ul>	
+								</p>
+								<p>
+									By default it is set to 1.
+								</p>
+								<p>
+									Direction of animation is described in below table:
+									<table class="table table-bordered">
+		    							<thead>
+								      		<tr>
+										        <th>animationType\sliceAnimationDirection</th>
+										        <th>0</th>
+										        <th>-1</th>
+												<th>0</th>
+										    </tr>
+										</thead>
+								    	<tbody>
+								      		<tr>
+								      			<td class="colTitle">height</td>
+								      			<td>from top to bottom</td>
+								      			<td>from bottom to top</td>
+								      			<td>mixed: once from bottom to top, once from top to bottom</td>
+								      		</tr>
+								      		<tr>
+								      			<td class="colTitle">width</td>
+								      			<td>from left to right</td>
+								      			<td>from right to left</td>
+								      			<td>mixed: once from left to right, once from right to left</td>
+								      		</tr>
+								      	</tbody>
+								  	</table>
+								</p>
+							</dd>
+							<dt id="nrOfSlicesDefinitionAnim">nrOfSlices (mandatory)</dt>
+	  						<dd>
+	  							<p>
+									Determines number of slices.
+								</p>
+								<p>
+									<i class="warn glyphicon glyphicon-large glyphicon-exclamation-sign"></i> 
+									<span class="warn">Too much value of this parameter can cause downturn working of slider.</span>
+								</p>
+							</dd>
+	  					</dl>
+						<div style="font-size:40px">
+							CSS3 Animation Parameters (optional)
+						</div>
+						<p>
+							CSS3 parameters can cause than slice animation will be nicer. CSS3 animation are additional - it will be launched with basic animations (width, height or opacity described in <a class="linkToParamDesc" href="#animationTypeDefinitionAnim">animationType</a> parameter).
+						</p>
+						<p>
+							<i class="warn glyphicon glyphicon-large glyphicon-exclamation-sign"></i> 
+							<span class="warn">Setting this parameters can cause downturn working of slider.</span>
+						</p>
+						<p>
+							<i class="warn glyphicon glyphicon-large glyphicon-exclamation-sign"></i> 
+							<span class="warn">CSS3 is not supported with IE8.</span>
+						</p>
+						<dl>
+							<dt id="sliceScaleDefinitionAnim">sliceScale</dt>
+							<dd>
+								Value of initial scale value for slice. For example if it is set to 0, then each slice will be scaled from 0 to 1. In other words it will be appear: its size will be growing. In other hand if it is set to 5, then slices will be decreasing: at the begining they will be 5x greater than their normal size, and they will decrease untin they reach their initial size.
+							</dd>
+							<dt id="sliceScaleAxisDefinitionAnim">sliceScaleAxis</dt>
+							<dd>
+								Axis which determine animation type. It can be X, Y or Z. For example if it is set to X, then width of slices are animated. If Y, then height will be scaled.
+							</dd>
+							<dt id="sliceRotateDefinitionAnim">sliceRotate</dt>
+							<dd>
+								Value of initial rotate parameter of slice. For example if it is set to 90, then each slice will be rotated from 90 to 0 degrees. 
+							</dd>
+							<dt id="sliceRotateAxisDefinitionAnim">sliceRotate</dt>
+							<dd>
+								The axis of aforementioned rotation.
+							</dd>
+							<dt id="sliceSkewDefinitionAnim">sliceSkew</dt>
+							<dd>
+								Initial value of skew transition parameter. Working similarly like sliceScale and sliceRotate.
+							</dd>
+							<dt id="sliceSkewAxisDefinitionAnim">sliceSkewAxis</dt>
+							<dd>
+								The axis of skew aforementioned skew transition.
+							</dd>
+						</dl>
+				  	</div> 
+
+				  	<div id="descDesc" class="tab-pane fade in">
+						<dl>
+							<dt id="sizePercentDescDefinitionDesc">sizePercent</dt>
+							<dd>
+								Determines part (expressed as a percentage) of slide which will be covered by description background. 
+							</dd>
+							<dt id="positionDescDefinitionDesc">position</dt>
+							<dd>
+								Position of description. It can be: left, right, top or bottom.
+							</dd>
+							<dt id="animationDurationDescDefinitionDesc">animationDuration</dt>
+							<dd>
+								Duration of animation of appearing description. 
+							</dd>
+							<dt id="animationTypeDescDefinitionDesc">animationType</dt>
+							<dd>
+								Type of animation of appearing slide’s description. It can be slipped from outside or can appear (by changed opacity parameter from 0 to 1).
+							</dd>
+							<dt id="bgColorDescDefinitionDesc">bgColor</dt>
+							<dd>
+								Color of description's background.
+							</dd>
+							<dt id="bgOpacityDescDefinitionDesc">bgOpacity</dt>
+							<dd>
+								Opacity of description (It can look nice if description is a little translucent).
+							</dd>
+						</dl>
+				  	</div>
+				  	<div id="navDesc" class="tab-pane fade in">
+						<dl>
+							<dt id="custArrowDefinitionNav">custLeftArrowDivId, custRightArrowDivId (optional)</dt>
+							<dd>
+								Indicates id of html elements which contain arrow images for slider navigation. By default they can look like:
+
+								<pre id="htmlExportCode" class="brush: xml; gutter: false;">
+									<div id="custLeftArrowDivId"><img src="path_to_left_arrow_image" /></div>
+									<div id="custRightArrowDivId"><img src="path_to_right_arrow_image" /></div>
+								</pre>
+								
+								By default arrows are strings: <strong>prev</strong> and <strong>next</strong> for arrow right and left.
+							</dd>
+							<dt id="showSlideCheckerDefinitionNav">showSlideChecker (optional)</dt>
+							<dd>
+								<p>
+									Determines if slide checker is visible. It can be 1 (slide checker visible), -1 (slide checker not visible) or 0 (slide checker visible when mouse is over slider).
+								</p>
+								<p>
+									By default it is set to 0.
+								</p>
+							</dd>
+							<dt id="showArrowsDefinitionNav">showArrows (optional)</dt>
+							<dd>
+								<p>
+									Determines if arrows to change slide are visible. It can be 1 (arrows visible), -1 (arrows not visible) or 0 (arrows visible when mouse is over slider).
+								</p>
+								<p>
+									By default it is set to 0. 
+								</p>
+							</dd>
+							<dt id="slideCheckerPercentWidthDefinitionNav">slideCheckerPercentWidth (optional)</dt>
+							<dd>
+								<p>
+									Determines width of slide checker (expressed as a percentage of slider's width [slideWidth parameter]). Height is adjusted automatically.
+								</p>
+								<p>
+									By default it is set to 10.
+								</p>
+							</dd>
+							<dt id="slideCheckerTopDefinitionNav">slideCheckerTop (optional)</dt>
+							<dd>
+								<p>
+									Distance between top of slider and slide checker expressed in percentage. For example if it is set to 90, then slide checker will be placed on the bottom (distance 90% of slider's height from top of slider).
+								</p>
+								<p>
+									By default it is set to 90.
+								</p>
+							</dd>
+							<dt id="slideCheckerOpacityDefinitionNav">slideCheckerOpacity (optional)</dt>
+							<dd>
+								<p>
+									Determines opacity of slide checker. It can look nice when it is a little translucent.
+								</p>
+								<p>
+									By default it is set to 0.5.
+								</p>
+							</dd>
+							<dt id="progressBarPositionDefinitionNav">progressBarPosition (optional)</dt>
+							<dd>
+								<p>
+									Determines position of progress bar.
+								</p>
+								<p>
+									By default it is set to top.
+								</p> 
+							</dd>
+							<dt id="progressBarOpacityDefinitionNav">progressBarOpacity (optional)</dt>
+							<dd>
+								<p>
+									Determines opacity of progress bar.
+								</p>
+								<p>
+									By default it is set to 1.
+								</p>
+							</dd>
+							<dt id="progressBarColorDefinitionNav">progressBarColor (optional)</dt>
+							<dd>
+								<p>
+									Determines color of progress bar.
+								</p>
+								<p>
+									By default it is set to yellow.
+								</p>
+							</dd>
+							<dt id="stopOnMouseEnterDefinitionNav">stopOnMouseEnter (optional)</dt>
+							<dd>
+								<p>
+									Determines if slider should stop when mouse is over the slider.
+								</p>
+								<p>
+									By default it is set to false.
+								</p>
+							</dd>
+						</dl>
+				  	</div>
+				</div>
+			</div>
+		</div>
+		<div class="row" id="contact">
+			<div class="col-lg-12">
+				<div class="sectionTitle"><a href="mailto:pumbosza@live.com">Contact</a></div>
+				
+				<div id="msgSent" class="contactErr alert alert-success fade">
+				    <a class="close closeContactError" title="close">×</a>
+				    Message has been sent
+				</div>
+				<div id="generalErr" class="contactErr alert alert-danger fade">
+					<a class="closeContactError close" title="close">×</a>
+					Sorry. Your message can't be send now. Try again later
+				</div>
+				<div id="fieldsReqErr" class="contactErr alert alert-danger fade">
+					<a class="closeContactError close" title="close">×</a>
+					Both fields are required
+				</div>
+				<div id="emailErr" class="contactErr alert alert-danger fade">
+					<a class="closeContactError close" title="close">×</a>
+					E-mail address field has incorrect value
+				</div>
+
+				<form class="form-horizontal" id="contactForm">
+					<div class="form-group">
+						<label class="col-lg-2 control-label" for="emailSender">E-mail address:</label>
+						<div class="col-lg-8">	
+							<input name="sender" id="emailSender" class="form-control" type="text">
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-lg-2 control-label" for="msgContent">Message:</label>
+						<div class="col-lg-8">
+							<textarea name="msg" id="message" class="col-lg-8 form-control" rows="10"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<label class="col-lg-2 control-label" for="msgContent">Antispam check: answer the question using english numerals</label>
+						<div class="col-lg-8">
+							<div id ="question">How much is 2+2 ?</div>
+							<input id="response" class="form-control" type="text">
+						</div>
+					</div>
+					<div class="form-group" id="contactSubmitButton">
+						<div class="col-lg-8 col-lg-offset-2">
+							<button type="button" id="sendMsg" class="btn btn-default btn-lg">Send message</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- code for download in generator -->
+	<div id="code" class="modal fade" role="dialog">
+  		<div class="modal-dialog">
+		    <div class="modal-content">
+      			<div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        			<h3 class="modal-title">Get js and html code and copy into your page</h3>
+        			<h5>Remember that you also must include appropriate js and css files. Find out <a id="tutorialLink" class="goToSectionLink" href="#tutorial div.sectionTitle">tutorial</a> to know more about using Slicer</h5> 
+      			</div>
+      			<div class="modal-body">
+      				<div class="col-md-6 col-xs-12" id="jsExportCode">
+	      				<div class="codeExportTitle"><h4>Java Script</h4></div>
+	        			
+					</div>
+					<div class="col-md-6 col-xs-12">
+						
+	      				<div class="codeExportTitle"><h4>HTML</h4></div>
+						<pre id="htmlExportCode" class="brush: xml; gutter: false;">
+							<!-- Slider main element -->
+							<div id="yourSliderName">
+								<div>
+									<img src="path_to_image_1"></img>
+									<div class="desc">
+										Example description of slide 1
+									</div>
+								</div>
+								<div>
+									<img src="path_to_image_2"></img>
+									<div class="desc">
+										Example description of slide 2
+									</div>
+								</div>
+								<div>
+									<img src="path_to_image_3"></img>
+									<div class="desc">
+										Example description of slide 3
+									</div>
+								</div>
+							</div>
+
+							<!-- Arrow elements -->
+							<div style="display:none">
+								<div id="leftArrow">
+									<img src="path_to_your_left_arrow_image" />
+								</div>
+								<div id="rightArrow">
+									<img src="path_to_your_right_arrow_image" />
+								</div>
+							</div>
+		      			</pre>
+		      		</div>
+      			</div>
+      			<div class="modal-footer">
+        			<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      			</div>
+    		</div>
+		</div>
+	</div>
+
+	<!-- jQuery -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.js"></script>
+	<script src="js/jquery/jquery-ui.js"></script>
+    <script src="js/jquery/jquery.minicolors.js"></script>
+	<!-- velocity -->
+	<script type="text/javascript" src="https://rawgit.com/julianshapiro/velocity/master/velocity.js"></script>
+	<script type="text/javascript" src="https://rawgit.com/julianshapiro/velocity/master/velocity.ui.js"></script>
+	<!-- bootstrap -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- textiliate -->
+    <script src="js/textiliate/jquery.fittext.js"></script>
+	<script src="js/textiliate/jquery.lettering.js"></script>
+	<script src="js/textiliate/jquery.textillate.js"></script>
+	<!-- slicer script -->
+	<script src="js/slicer/slicer.js"></script>
+	<!-- slider generator script -->
+	<script src="js/custom/generator.js"></script>
+	<!-- custom scripts -->
+	<script src="js/custom/main.js"></script>
+  </body>
+</html>
