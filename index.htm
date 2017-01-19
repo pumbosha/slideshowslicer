@@ -47,7 +47,7 @@
 					<li><a href="#generatorTitle">try</a></li>
 					<li><a href="#tutorial div.sectionTitle">tutorial</a></li>
 					<li><a href="#docs div.sectionTitle">docs</a></li>
-					<li><a data-toggle="tooltip" title="Purchase on Envato Market" href="#">purchase</a></li>
+					<li><a href="#download div.sectionTitle">download</a></li><!--data-toggle="tooltip" title="Purchase on Envato Market" -->
 					<li><a href="#contact div.sectionTitle">contact</a></li>
 				</ul>
 	      	</div>
@@ -139,9 +139,7 @@
 
 		<div id="generatorTitle" class="row">
 			<div class="col-lg-12">
-				<div class="sectionTitle">Generator
-					<div class="sectionSubTitle">Try it before you buy</div>
-				</div>
+				<div class="sectionTitle">Generator</div>
 			</div>
 		</div>
 		<div class="row" id="generator">
@@ -1099,6 +1097,18 @@
 				</div>
 			</div>
 		</div>
+		<div class="row" id="download">
+			<div class="col-lg-12">
+				<div class="sectionTitle">Download
+					<div class="sectionSubTitle">from project on <a href="https://github.com/pumbosha/slideshowslicer">github</a></div>
+				</div>
+				Necessary files:
+				<br/>
+				<a href="https://github.com/pumbosha/slideshowslicer/blob/master/js/slicer/slicer.js">slicer.js</a>
+				<br/>
+				<a href="https://github.com/pumbosha/slideshowslicer/blob/master/css/slicer.css">slicer.css</a>
+			</div>
+		</div>
 		<div class="row" id="contact">
 			<div class="col-lg-12">
 				<div class="sectionTitle"><a href="mailto:pumbosza@live.com">Contact</a></div>
@@ -1120,7 +1130,7 @@
 					E-mail address field has incorrect value
 				</div>
 
-				<form class="form-horizontal" id="contactForm">
+				<form class="form-horizontal" id="contactForm" action="sendMsg.php">
 					<div class="form-group">
 						<label class="col-lg-2 control-label" for="emailSender">E-mail address:</label>
 						<div class="col-lg-8">	
@@ -1134,7 +1144,7 @@
 						</div>
 					</div>
 					<div class="form-group">
-						<label class="col-lg-2 control-label" for="msgContent">Antispam check: answer the question using english numerals</label>
+						<label class="col-lg-2 control-label" for="msgContent">Antispam check: answer the question using english numerals like 'one' or 'two'</label>
 						<div class="col-lg-8">
 							<div id ="question">How much is 2+2 ?</div>
 							<input id="response" class="form-control" type="text">
